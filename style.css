@@ -28,7 +28,7 @@ a{
      right: 0;
  }
 
- .conteiner{
+ .container{
      padding: 0 15px;
      max-width: 1230px;
      margin: 0 auto;
@@ -123,5 +123,14 @@ a{
     position: relative;
     z-index: 6;
     max-width: 1200px;
-    padding-left: 0;
+    padding-left: 2px;
+}
+
+.statistics{
+    margin: 105px 0 100px;
+}
+
+.statistics-items{
+    display: flex;
+    justify-content: space-around;
 }
